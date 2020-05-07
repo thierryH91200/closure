@@ -20,6 +20,7 @@
 		0300D07B245DEFEA0058B35A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D07A245DEFEA0058B35A /* Feed.swift */; };
 		0300D07F245DF0560058B35A /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D07E245DF0560058B35A /* Date+extensions.swift */; };
 		0300D081245DF2970058B35A /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D080245DF2960058B35A /* DynamicKey.swift */; };
+		03035EE62463E7DB0068DF28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03035EE52463E7DB0068DF28 /* README.md */; };
 		0330654524603F6A006E5CE2 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 0330654424603F6A006E5CE2 /* Charts */; };
 		03306548246056E0006E5CE2 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03306546246056E0006E5CE2 /* PurchasesDetailView.xib */; };
 		03306549246056E0006E5CE2 /* PurchasesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03306547246056E0006E5CE2 /* PurchasesDetailView.swift */; };
@@ -69,6 +70,7 @@
 		0300D07A245DEFEA0058B35A /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		0300D07E245DF0560058B35A /* Date+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
 		0300D080245DF2960058B35A /* DynamicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicKey.swift; sourceTree = "<group>"; };
+		03035EE52463E7DB0068DF28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		03306546246056E0006E5CE2 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
 		03306547246056E0006E5CE2 /* PurchasesDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDetailView.swift; sourceTree = "<group>"; };
 		0330654A24606B8B006E5CE2 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		0300D033245D72780058B35A /* closure */ = {
 			isa = PBXGroup;
 			children = (
+				03035EE52463E7DB0068DF28 /* README.md */,
 				0300D06E245DBAE40058B35A /* AutoCompleteTextField */,
 				0300D034245D72780058B35A /* AppDelegate.swift */,
 				0300D036245D727C0058B35A /* Assets.xcassets */,
@@ -300,6 +303,7 @@
 				0377961B245ECF490077A0BD /* ParamStockController.xib in Resources */,
 				03779613245EB6BE0077A0BD /* ParamSimpleController.xib in Resources */,
 				0300D060245D72CB0058B35A /* MainWindowController.xib in Resources */,
+				03035EE62463E7DB0068DF28 /* README.md in Resources */,
 				0300D03A245D727C0058B35A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
