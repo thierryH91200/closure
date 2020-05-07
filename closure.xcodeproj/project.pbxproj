@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,24 @@
 		0300D03A245D727C0058B35A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0300D038245D727C0058B35A /* MainMenu.xib */; };
 		0300D046245D727D0058B35A /* closureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D045245D727D0058B35A /* closureTests.swift */; };
 		0300D051245D727D0058B35A /* closureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D050245D727D0058B35A /* closureUITests.swift */; };
+		0300D060245D72CB0058B35A /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0300D05E245D72CB0058B35A /* MainWindowController.xib */; };
+		0300D061245D72CB0058B35A /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D05F245D72CB0058B35A /* MainWindowController.swift */; };
+		0300D074245DCC200058B35A /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D073245DCC200058B35A /* AutoCompleteTextField.swift */; };
+		0300D076245DEEE60058B35A /* SwiftStockKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D075245DEEE60058B35A /* SwiftStockKit.swift */; };
+		0300D079245DEF6D0058B35A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0300D078245DEF6D0058B35A /* Alamofire */; };
+		0300D07B245DEFEA0058B35A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D07A245DEFEA0058B35A /* Feed.swift */; };
+		0300D07F245DF0560058B35A /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D07E245DF0560058B35A /* Date+extensions.swift */; };
+		0300D081245DF2970058B35A /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D080245DF2960058B35A /* DynamicKey.swift */; };
+		0330654524603F6A006E5CE2 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 0330654424603F6A006E5CE2 /* Charts */; };
+		03306548246056E0006E5CE2 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03306546246056E0006E5CE2 /* PurchasesDetailView.xib */; };
+		03306549246056E0006E5CE2 /* PurchasesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03306547246056E0006E5CE2 /* PurchasesDetailView.swift */; };
+		0330654B24606B8B006E5CE2 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0330654A24606B8B006E5CE2 /* LoadableView.swift */; };
+		03779613245EB6BE0077A0BD /* ParamSimpleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03779611245EB6BE0077A0BD /* ParamSimpleController.xib */; };
+		03779614245EB6BE0077A0BD /* ParamSimpleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03779612245EB6BE0077A0BD /* ParamSimpleController.swift */; };
+		03779617245EB6FB0077A0BD /* ParamAutoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03779615245EB6FB0077A0BD /* ParamAutoController.xib */; };
+		03779618245EB6FB0077A0BD /* ParamAutoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03779616245EB6FB0077A0BD /* ParamAutoController.swift */; };
+		0377961B245ECF490077A0BD /* ParamStockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03779619245ECF490077A0BD /* ParamStockController.xib */; };
+		0377961C245ECF490077A0BD /* ParamStockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377961A245ECF490077A0BD /* ParamStockController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +62,22 @@
 		0300D04C245D727D0058B35A /* closureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = closureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0300D050245D727D0058B35A /* closureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closureUITests.swift; sourceTree = "<group>"; };
 		0300D052245D727D0058B35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0300D05E245D72CB0058B35A /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		0300D05F245D72CB0058B35A /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		0300D073245DCC200058B35A /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		0300D075245DEEE60058B35A /* SwiftStockKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStockKit.swift; sourceTree = "<group>"; };
+		0300D07A245DEFEA0058B35A /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		0300D07E245DF0560058B35A /* Date+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
+		0300D080245DF2960058B35A /* DynamicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicKey.swift; sourceTree = "<group>"; };
+		03306546246056E0006E5CE2 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
+		03306547246056E0006E5CE2 /* PurchasesDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDetailView.swift; sourceTree = "<group>"; };
+		0330654A24606B8B006E5CE2 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		03779611245EB6BE0077A0BD /* ParamSimpleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParamSimpleController.xib; sourceTree = "<group>"; };
+		03779612245EB6BE0077A0BD /* ParamSimpleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamSimpleController.swift; sourceTree = "<group>"; };
+		03779615245EB6FB0077A0BD /* ParamAutoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParamAutoController.xib; sourceTree = "<group>"; };
+		03779616245EB6FB0077A0BD /* ParamAutoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamAutoController.swift; sourceTree = "<group>"; };
+		03779619245ECF490077A0BD /* ParamStockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParamStockController.xib; sourceTree = "<group>"; };
+		0377961A245ECF490077A0BD /* ParamStockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamStockController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0300D079245DEF6D0058B35A /* Alamofire in Frameworks */,
+				0330654524603F6A006E5CE2 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +130,27 @@
 		0300D033245D72780058B35A /* closure */ = {
 			isa = PBXGroup;
 			children = (
+				0300D06E245DBAE40058B35A /* AutoCompleteTextField */,
 				0300D034245D72780058B35A /* AppDelegate.swift */,
 				0300D036245D727C0058B35A /* Assets.xcassets */,
 				0300D038245D727C0058B35A /* MainMenu.xib */,
 				0300D03B245D727C0058B35A /* Info.plist */,
 				0300D03C245D727C0058B35A /* closure.entitlements */,
+				0300D05E245D72CB0058B35A /* MainWindowController.xib */,
+				0300D05F245D72CB0058B35A /* MainWindowController.swift */,
+				0300D080245DF2960058B35A /* DynamicKey.swift */,
+				0300D07A245DEFEA0058B35A /* Feed.swift */,
+				0300D07E245DF0560058B35A /* Date+extensions.swift */,
+				0300D075245DEEE60058B35A /* SwiftStockKit.swift */,
+				03779619245ECF490077A0BD /* ParamStockController.xib */,
+				0377961A245ECF490077A0BD /* ParamStockController.swift */,
+				03779611245EB6BE0077A0BD /* ParamSimpleController.xib */,
+				03779612245EB6BE0077A0BD /* ParamSimpleController.swift */,
+				03779615245EB6FB0077A0BD /* ParamAutoController.xib */,
+				0330654A24606B8B006E5CE2 /* LoadableView.swift */,
+				03779616245EB6FB0077A0BD /* ParamAutoController.swift */,
+				03306547246056E0006E5CE2 /* PurchasesDetailView.swift */,
+				03306546246056E0006E5CE2 /* PurchasesDetailView.xib */,
 			);
 			path = closure;
 			sourceTree = "<group>";
@@ -121,6 +173,14 @@
 			path = closureUITests;
 			sourceTree = "<group>";
 		};
+		0300D06E245DBAE40058B35A /* AutoCompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0300D073245DCC200058B35A /* AutoCompleteTextField.swift */,
+			);
+			path = AutoCompleteTextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,12 +191,17 @@
 				0300D02D245D72780058B35A /* Sources */,
 				0300D02E245D72780058B35A /* Frameworks */,
 				0300D02F245D72780058B35A /* Resources */,
+				0300D082245DF3070058B35A /* Pecker */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = closure;
+			packageProductDependencies = (
+				0300D078245DEF6D0058B35A /* Alamofire */,
+				0330654424603F6A006E5CE2 /* Charts */,
+			);
 			productName = closure;
 			productReference = 0300D031245D72780058B35A /* closure.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 0300D028245D72780058B35A;
+			packageReferences = (
+				0300D077245DEF6D0058B35A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0330654324603F6A006E5CE2 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 0300D032245D72780058B35A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,7 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03779617245EB6FB0077A0BD /* ParamAutoController.xib in Resources */,
 				0300D037245D727C0058B35A /* Assets.xcassets in Resources */,
+				03306548246056E0006E5CE2 /* PurchasesDetailView.xib in Resources */,
+				0377961B245ECF490077A0BD /* ParamStockController.xib in Resources */,
+				03779613245EB6BE0077A0BD /* ParamSimpleController.xib in Resources */,
+				0300D060245D72CB0058B35A /* MainWindowController.xib in Resources */,
 				0300D03A245D727C0058B35A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,12 +320,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0300D082245DF3070058B35A /* Pecker */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Pecker;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which pecker >/dev/null; then\n  pecker\nelse\n  echo \"warning: Pecker not installed, download from https://github.com/woshiccm/Pecker\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0300D02D245D72780058B35A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0330654B24606B8B006E5CE2 /* LoadableView.swift in Sources */,
+				0377961C245ECF490077A0BD /* ParamStockController.swift in Sources */,
+				03779618245EB6FB0077A0BD /* ParamAutoController.swift in Sources */,
+				0300D074245DCC200058B35A /* AutoCompleteTextField.swift in Sources */,
+				0300D07B245DEFEA0058B35A /* Feed.swift in Sources */,
+				0300D061245D72CB0058B35A /* MainWindowController.swift in Sources */,
+				0300D07F245DF0560058B35A /* Date+extensions.swift in Sources */,
 				0300D035245D72780058B35A /* AppDelegate.swift in Sources */,
+				03779614245EB6BE0077A0BD /* ParamSimpleController.swift in Sources */,
+				0300D076245DEEE60058B35A /* SwiftStockKit.swift in Sources */,
+				0300D081245DF2970058B35A /* DynamicKey.swift in Sources */,
+				03306549246056E0006E5CE2 /* PurchasesDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +673,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0300D077245DEF6D0058B35A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		0330654324603F6A006E5CE2 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0300D078245DEF6D0058B35A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0300D077245DEF6D0058B35A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0330654424603F6A006E5CE2 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0330654324603F6A006E5CE2 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0300D029245D72780058B35A /* Project object */;
 }

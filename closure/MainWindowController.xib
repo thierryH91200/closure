@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="closure" customModuleProvider="target">
+            <connections>
+                <outlet property="tabView" destination="4Q7-Yj-LZc" id="X0f-TE-33B"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="savewin" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="561" height="323"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="561" height="323"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tabView translatesAutoresizingMaskIntoConstraints="NO" id="4Q7-Yj-LZc">
+                        <rect key="frame" x="-7" y="-10" width="575" height="339"/>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="Tab" identifier="" id="Yn1-rQ-xh0">
+                                <view key="view" id="nVe-1g-Cyu">
+                                    <rect key="frame" x="10" y="33" width="555" height="293"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="View" identifier="" id="eRS-mG-pPC">
+                                <view key="view" id="Paa-1I-Zqj">
+                                    <rect key="frame" x="10" y="33" width="555" height="293"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                    </tabView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4Q7-Yj-LZc" secondAttribute="trailing" id="0kD-e2-eyL"/>
+                    <constraint firstItem="4Q7-Yj-LZc" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="PlZ-X1-hOq"/>
+                    <constraint firstAttribute="bottom" secondItem="4Q7-Yj-LZc" secondAttribute="bottom" id="qHn-QN-dS4"/>
+                    <constraint firstItem="4Q7-Yj-LZc" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" id="uWJ-6x-0eR"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="179.5" y="173.5"/>
+        </window>
+    </objects>
+</document>
