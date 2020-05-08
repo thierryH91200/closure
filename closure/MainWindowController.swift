@@ -6,14 +6,13 @@
 //  Copyright © 2020 thierry hentic. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
 
 class MainWindowController: NSWindowController {
     
     @IBOutlet weak var tabView: NSTabView!
 
-    
     var paramAutoController: ParamAutoController!
     var paramSimpleController: ParamSimpleController!
     var paramStockController: ParamStockController!

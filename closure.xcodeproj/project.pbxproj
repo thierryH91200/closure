@@ -21,6 +21,9 @@
 		0300D07F245DF0560058B35A /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D07E245DF0560058B35A /* Date+extensions.swift */; };
 		0300D081245DF2970058B35A /* DynamicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0300D080245DF2960058B35A /* DynamicKey.swift */; };
 		03035EE62463E7DB0068DF28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03035EE52463E7DB0068DF28 /* README.md */; };
+		0311CCA42465C52F00F135F0 /* doc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0311CCA12465C52F00F135F0 /* doc1.png */; };
+		0311CCA52465C52F00F135F0 /* doc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0311CCA22465C52F00F135F0 /* doc2.png */; };
+		0311CCA62465C52F00F135F0 /* doc3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0311CCA32465C52F00F135F0 /* doc3.png */; };
 		0330654524603F6A006E5CE2 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 0330654424603F6A006E5CE2 /* Charts */; };
 		03306548246056E0006E5CE2 /* PurchasesDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03306546246056E0006E5CE2 /* PurchasesDetailView.xib */; };
 		03306549246056E0006E5CE2 /* PurchasesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03306547246056E0006E5CE2 /* PurchasesDetailView.swift */; };
@@ -71,6 +74,9 @@
 		0300D07E245DF0560058B35A /* Date+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
 		0300D080245DF2960058B35A /* DynamicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicKey.swift; sourceTree = "<group>"; };
 		03035EE52463E7DB0068DF28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0311CCA12465C52F00F135F0 /* doc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc1.png; sourceTree = "<group>"; };
+		0311CCA22465C52F00F135F0 /* doc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc2.png; sourceTree = "<group>"; };
+		0311CCA32465C52F00F135F0 /* doc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc3.png; sourceTree = "<group>"; };
 		03306546246056E0006E5CE2 /* PurchasesDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasesDetailView.xib; sourceTree = "<group>"; };
 		03306547246056E0006E5CE2 /* PurchasesDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesDetailView.swift; sourceTree = "<group>"; };
 		0330654A24606B8B006E5CE2 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 		0300D028245D72780058B35A = {
 			isa = PBXGroup;
 			children = (
+				0311CC9A2465C44300F135F0 /* doc */,
 				0300D033245D72780058B35A /* closure */,
 				0300D044245D727D0058B35A /* closureTests */,
 				0300D04F245D727D0058B35A /* closureUITests */,
@@ -182,6 +189,16 @@
 				0300D073245DCC200058B35A /* AutoCompleteTextField.swift */,
 			);
 			path = AutoCompleteTextField;
+			sourceTree = "<group>";
+		};
+		0311CC9A2465C44300F135F0 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				0311CCA12465C52F00F135F0 /* doc1.png */,
+				0311CCA22465C52F00F135F0 /* doc2.png */,
+				0311CCA32465C52F00F135F0 /* doc3.png */,
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +314,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0311CCA62465C52F00F135F0 /* doc3.png in Resources */,
 				03779617245EB6FB0077A0BD /* ParamAutoController.xib in Resources */,
+				0311CCA52465C52F00F135F0 /* doc2.png in Resources */,
 				0300D037245D727C0058B35A /* Assets.xcassets in Resources */,
+				0311CCA42465C52F00F135F0 /* doc1.png in Resources */,
 				03306548246056E0006E5CE2 /* PurchasesDetailView.xib in Resources */,
 				0377961B245ECF490077A0BD /* ParamStockController.xib in Resources */,
 				03779613245EB6BE0077A0BD /* ParamSimpleController.xib in Resources */,

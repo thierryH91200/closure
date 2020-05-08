@@ -6,7 +6,7 @@
 //  Copyright © 2019 Appcoda. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
 protocol LoadableView: class {
     var mainView: NSView? { get set }

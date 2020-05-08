@@ -6,7 +6,7 @@
 //  Copyright © 2019 Appcoda. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
 class PurchasesDetailView: NSView, LoadableView {
     

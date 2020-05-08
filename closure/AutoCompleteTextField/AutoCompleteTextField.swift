@@ -6,7 +6,7 @@
 //  Copyright © 2015年 fancy. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
 @objc protocol AutoCompleteTableViewDelegate:NSObjectProtocol{
 //    func textField(_ textField:NSTextField,completions words:[String],forPartialWordRange charRange:NSRange,indexOfSelectedItem index:Int) ->[String]
@@ -199,7 +199,6 @@ extension AutoCompleteTextField: NSPopoverDelegate{
         let frame = NSRect(x: 0, y: 0, width: popOverWidth, height: height)
         self.autoCompleteTableView?.enclosingScrollView?.frame = NSInsetRect(frame, popOverPadding, popOverPadding)
         self.autoCompletePopover?.contentSize = NSSize(width: frame.width, height: frame.height)
-        
     }
     
 }

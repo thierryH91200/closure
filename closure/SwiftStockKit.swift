@@ -18,7 +18,7 @@ class StockSearchResult : NSObject {
         self.symbol      = symbol
         self.name        = name
         self.type        = type
-        self.region      = type
+        self.region      = region
         self.marketOpen  = marketOpen
         self.marketClose = marketClose
         self.timezone    = timezone

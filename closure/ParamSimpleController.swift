@@ -6,7 +6,7 @@
 //  Copyright © 2020 thierry hentic. All rights reserved.
 //
 
-import Cocoa
+import AppKit
 
 struct User : Decodable {
     var id: Int?
@@ -15,6 +15,8 @@ struct User : Decodable {
     var last_name: String?
     var avatar: String?
 }
+
+typealias completionParamSimple = (User?, Error?) -> Void
 
 
 class ParamSimpleController: NSViewController {
@@ -30,7 +32,6 @@ class ParamSimpleController: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
         loadData(id : id)
-
     }
     
     func loadData(id : Int) {
@@ -51,7 +52,7 @@ class ParamSimpleController: NSViewController {
         })
     }
     
-    func fetchUser(userID: Int, userCompletionHandler: @escaping (User?, Error?) -> Void) {
+    func fetchUser(userID: Int, userCompletionHandler: @escaping completionParamSimple) {
         let url = URL(string: "https://reqres.in/api/users/\(userID)")!
         let task = URLSession.shared.dataTask(with: url, completionHandler: { data, response, error in
             
@@ -69,7 +70,6 @@ class ParamSimpleController: NSViewController {
                 userCompletionHandler(nil, parseErr)
             }
         })
-        
         task.resume()
         // function will end here and return
         // then after receiving HTTP response, the completionHandler will be called
@@ -84,6 +84,4 @@ class ParamSimpleController: NSViewController {
         id += 1
         loadData(id : id)
     }
-
-    
 }
