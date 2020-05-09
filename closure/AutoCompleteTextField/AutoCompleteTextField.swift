@@ -187,7 +187,6 @@ class AutoCompleteTextField:NSTextField{
     }
 }
 
-
 // MARK: - NSPopoverDelegate
 extension AutoCompleteTextField: NSPopoverDelegate{
     

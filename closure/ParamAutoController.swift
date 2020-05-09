@@ -23,6 +23,9 @@ class ParamAutoController: NSViewController, NSTextFieldDelegate {
         super.viewDidLoad()
         // Do view setup here.
         
+        tableVIew.delegate = self
+        tableVIew.dataSource = self
+        
         searchField.tableViewDelegate = self
         initGraph()
         
@@ -168,10 +171,17 @@ extension ParamAutoController : AutoCompleteTableViewDelegate {
                             matchScore: dictionary.matchScore))
                     }
                     
+                    self.searchResults = stockInfoArray
+                    
+                    
                     for use in stockInfoArray {
                         result.append(use.symbol! + "   " + use.name! )
                     }
                     completion(stockInfoArray, result, nil)
+                    DispatchQueue.main.async(execute: {() -> Void in
+                        self.tableVIew.reloadData()
+                    })
+
                 }
             }
         })
