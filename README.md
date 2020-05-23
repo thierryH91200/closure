@@ -5,6 +5,9 @@
 Read more about escaping closure on Apple documentation here.
 https://docs.swift.org/swift-book/LanguageGuide/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID546
 
+
+https://github.com/cupnoodle/fluffyes/blob/a7d62ae3f11987a60e1fd96c635dae85d639d657/14-return-value-closure.md
+
 <p align="center">
     <img src="doc/doc1.png" alt="simple">
     <p align="center">
